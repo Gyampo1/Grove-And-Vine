@@ -349,6 +349,8 @@ export default function App() {
                             src={item.image}
                             alt={item.name}
                             loading="lazy"
+                            referrerPolicy="no-referrer"
+                            onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80'; }}
                             className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent opacity-30" />

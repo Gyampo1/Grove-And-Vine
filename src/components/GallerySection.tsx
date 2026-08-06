@@ -102,6 +102,8 @@ export default function GallerySection() {
                   src={item.image}
                   alt={item.title}
                   loading="lazy"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80'; }}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
                 />
 
@@ -181,6 +183,8 @@ export default function GallerySection() {
                   <img
                     src={currentItem.image}
                     alt={currentItem.title}
+                    referrerPolicy="no-referrer"
+                    onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80'; }}
                     className="w-full h-full object-cover lg:object-contain max-h-[50vh] lg:max-h-[85vh]"
                   />
                 </div>

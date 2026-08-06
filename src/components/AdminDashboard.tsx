@@ -138,11 +138,11 @@ export default function AdminDashboard({
 
   // Default Image Presets for new menu items
   const imagePresets = [
-    { name: 'Red Snapper', url: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDkP-ixOzYaLFH1H4f-ag_WZzmltPZs6LJHhz8Zlxi8N8U36pVtGeCDNTagcpdnKabm-JO83rBglh5ghZPTKC6ab0RwzsadwN5PnVA_68SBHOJdffVvbdK9am2dcWlDpoGQrxpSek2wcQ-OdiLZOvYJcwky6MvpY9CDmAWvc0boe0JQqwGR10fQ7AEIS5lQhw7icoyiwidVrnISokxvVggITNesH1y3zWvckrOCblPLuCXuojTldkQC8n4C6epOizZ6OM29OlyQNO0' },
-    { name: 'Short Rib', url: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBwX5Gxn_Wz0aXu38zX11jd5ey4fZ7L7jP_d2t22l04XjeM4670qr5UKekkllVrr9qJLNt7kbm4FajS_yoNcPjf1zQZO0UV1tWosa7B_TmmDYlpu4I7gkRAnV_FrDohiz902RD7TyhDKy53oMfNDIyC9vTULsDTWQb8iy8tai993a3tk8Gox9hshmQujCTS6eD5D0CQGFy-9QjaETfBiyYnNVwRzWYmmvv4PrdMV6kIwW-hNDpqaLp1cTtYv8AMv_T9qgH9CRhJUmI' },
-    { name: 'Crisps Starter', url: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCvgWsItjywXVoU1U-Mbyw-zqyqUYjzfjAEpnxU_0ZaxQHwjAvPWOj4FtELMuUw51yRoior71QEcpidUX7oPCtDz66OK2egTFrUBPM2XhuveHhJtHbZkoZGccPtAQwj21curXBh-Y_T4SedQfp-ea2FmzjyobkvBcuk3tjMLWJNI1oiX_jwZ979qpokabf0BzE4KMCWcsFHm_6b2bLH7UstOk90b46AA5KwYyzAJ0J_b9pqtQSDx-s2aEZGp9vYycvxzrmoanHcWKo' },
-    { name: 'Dark Desert', url: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBroeulbTjUI6_5_ngUK45PKjqZWccYLTxOy8HzB0Crd5yBNcRtGODghI5et8yUaJcdN1qgnd3p_eRY2MGbPOqVkMdMXpFafsyqgx90y2PE1-5ykNNsCNefN29Ojdk7lJMLwf6k4cGin_oEa99T-7fmkw90zyCusjaXHkELCKuK739E74YkveiQmV6jbWZRTbUen-0Je63OSxjHZwTyRqWE7TIEJu-AwSBKN2pJVJDpL89SGqEh2fHgsiTQ3ek3PfwpOBkFuEQ6mZI' },
-    { name: 'Tropical Drink', url: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBfN4mbkS_SZ-55op6HVYOCOz09EnpgEePBKlWpTjc4Del4gmlYiNRm-f72xbZKFScj45RwFUIJQzNOQRY-3CLWrcxhvWVlfxvDbq8UNWwUGT15-PKw7c9yMH6nv2OfbbttOmMPJqSxwlxxwshr6kHOveb0VhYn10MHyHFFrDbTLjI1EiSqvB3VVRPSk6Yq0t64Kx27AXIxI0DnZoaDoJrFEYm01VklJwB3qJ0nOZVTuQei-ywRzs-8ssITdWhKH1Wk37aORfcdb-I' }
+    { name: 'Red Snapper', url: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Short Rib', url: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Crisps Starter', url: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Dark Desert', url: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80' },
+    { name: 'Tropical Drink', url: 'https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&w=600&q=80' }
   ];
 
   const handlePinSubmit = (e: React.FormEvent) => {
@@ -1094,6 +1094,7 @@ export default function AdminDashboard({
                                           alt={dish.name}
                                           className="w-10 h-10 rounded-lg object-cover bg-surface-dim shrink-0 text-[10px]"
                                           referrerPolicy="no-referrer"
+                                          onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80'; }}
                                         />
                                         <div className="text-left space-y-0.5">
                                           <strong className="font-sans text-primary font-bold block">{dish.name}</strong>
@@ -1619,7 +1620,13 @@ export default function AdminDashboard({
                         }`}
                         title={preset.name}
                       >
-                        <img src={preset.url} alt={preset.name} className="w-full h-full object-cover" />
+                        <img 
+                          src={preset.url} 
+                          alt={preset.name} 
+                          className="w-full h-full object-cover" 
+                          referrerPolicy="no-referrer"
+                          onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80'; }}
+                        />
                         {newItem.image === preset.url && (
                           <div className="absolute inset-0 bg-primary/25 flex items-center justify-center">
                             <Check className="w-4 h-4 text-secondary stroke-[4]" />

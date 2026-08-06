@@ -82,6 +82,8 @@ export default function FavoritesList({
                       <img
                         src={item.image}
                         alt={item.name}
+                        referrerPolicy="no-referrer"
+                        onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80'; }}
                         className="w-14 h-14 rounded-xl object-cover shrink-0 bg-surface-dim"
                       />
                       <div className="space-y-0.5 text-left">

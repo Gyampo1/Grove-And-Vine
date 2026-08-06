@@ -291,42 +291,42 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'g1',
     category: 'food',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAF1nK77kTLlFBKMSv2MNLjDz00kd7-c_HbRsGYzXhSmtpO_1YIo1mlH75M2BGYMtoahZZTaPXEnJINzFZLY6KD2PMzM56HLS2PZRQbpTnYuiDBoO71o5Npd92duTuhoC80ZsrFIxLfL0tHKj4OgVqOxun-5uqTSO8cHvFOIRqe_gFFQ7p3IFilpZKYtGB6CoOHo0xxIMSVsQYvXzCQweRooXnLL7BS5TIZRpZNqn1mND3OhwlwyUcDOGA9iowGCDHH8pXlNgln7mo',
+    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=1000&q=80',
     title: 'Signature Sea Scallops',
     description: 'Gently seared, paired with parsnip silk and fresh forest botanicals.'
   },
   {
     id: 'g2',
     category: 'ambiance',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBDVWqcbUBVcGpYKzF8Ewsmy2LiFyMLBXDt96lxhePhNkQZ7JjnJhe9jXyZc2dm2v2nD42SRsI_0AAbDWM9cBhofDr3RO4QILo7zRWELll11LSAdWm-LsDUZua7_avhOWk3Dr9f6Fxp1LmM0FQOa-iaxVgZHPIqUoeQWe3C8r8aNB4mR6BDd5yblqysI-ZV12qnwSIQW-8KY04aYw6DbBcm5rXVFX1XvhJYNrJyEf63rj_7PotLZuvnpyw82NTbkN5F6opk4naTcYU',
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80',
     title: 'Main Dining Canopy',
     description: 'Ethereal glass walls framing the ancient mahogany forest at twilight.'
   },
   {
     id: 'g3',
     category: 'events',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDyBH3jM6DtKQU59p1961DM60BSkklZYGq8s3Xi5Q27G1pXxfAcyTLnKsrYB7BN3-ovl6aAfL9auC1dcPH_DE_plzqVQg-dWygFs5-9B1CqCCsT0S3A8seNV1ao6XOTWe2RoyM8P0zpGsevVKyJ2GAnG6mO16q2SQDgN3jyxTjLyIOo95IkgX8Bu1iqreia9YbS6hhuym2qpa1qKJSXWfNO_drXoEOOPFkwxB1Lg0jxSPa_Fj2AKSBuKpHRa6dn4Fdat_nAf15XWrE',
+    image: 'https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1000&q=80',
     title: 'Botanical Soirée',
     description: 'Exclusive evening gatherings under a canopy of twinkling stars.'
   },
   {
     id: 'g4',
     category: 'food',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBroeulbTjUI6_5_ngUK45PKjqZWccYLTxOy8HzB0Crd5yBNcRtGODghI5et8yUaJcdN1qgnd3p_eRY2MGbPOqVkMdMXpFafsyqgx90y2PE1-5ykNNsCNefN29Ojdk7lJMLwf6k4cGin_oEa99T-7fmkw90zyCusjaXHkELCKuK739E74YkveiQmV6jbWZRTbUen-0Je63OSxjHZwTyRqWE7TIEJu-AwSBKN2pJVJDpL89SGqEh2fHgsiTQ3ek3PfwpOBkFuEQ6mZI',
+    image: 'https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?auto=format&fit=crop&w=1000&q=80',
     title: 'Dark Forest Sphere',
     description: 'A decadent dark chocolate sphere with wild berry coulis.'
   },
   {
     id: 'g5',
     category: 'ambiance',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB2AdiHKMU-KeJZU3xtaVvt6I_Mxy8MVihqf1k94C362aCBXDlnId3N0d6dY9Viq-epfUBgclTol8LbV4IIIn17Al0EGzgTjgDY6xjanuaC62yHbzRzqFyi-7qfBFoT5EiyqtAMh_gotAw6MblRzyGTpESodQZWfOOIhxr7iHzO2VKwFXjQgUsbYh1FVMYwIuSl-76HSh_vtLF8k4Pahg6OXcYk-qkFS8QiPXM1bLvUNmq50vLlK98gCuqC7mFZ18JkDfd5Iz8zfEw',
+    image: 'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1000&q=80',
     title: 'Curated Textures',
     description: 'Tactile stone platters, fine linen napkins, and custom-blown crystal.'
   },
   {
     id: 'g6',
     category: 'food',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCvgWsItjywXVoU1U-Mbyw-zqyqUYjzfjAEpnxU_0ZaxQHwjAvPWOj4FtELMuUw51yRoior71QEcpidUX7oPCtDz66OK2egTFrUBPM2XhuveHhJtHbZkoZGccPtAQwj21curXBh-Y_T4SedQfp-ea2FmzjyobkvBcuk3tjMLWJNI1oiX_jwZ979qpokabf0BzE4KMCWcsFHm_6b2bLH7UstOk90b46AA5KwYyzAJ0J_b9pqtQSDx-s2aEZGp9vYycvxzrmoanHcWKo',
+    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80',
     title: 'Artisanal Provisions',
     description: 'Twice-baked crusty heritage bread served with smoked whipped truffle butter.'
   }
@@ -339,7 +339,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: 'Accra Gourmet Journal',
     text: 'A profound culinary awakening. Chef Kojo Mensah succeeds in transforming humble West African ingredients into high-concept art. The waakye with truffle is an absolute masterwork.',
     rating: 5,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDOxgxuLRYgQESJ2Hrn-1uwe3QkUAURn4tQIVSc1e7YsVPt6vKAX0iTghuUG0L1BgTq9H40JcufDqjei90dbnW5yH1Z4Aw9C0f-Zap-y8xnGl4QYuCxVFtjFDDgSZ_W8Z9_hOYrtmHIITx0Ki8fxnquhJ91zfwlgAUCkZm1Yi-vdbiS-pahi76ehzF3jTW5nm_aH7XSuQuDxAVFmfgVZ8cUELz7qM6NkBuyUeOzI5BrFhd8pj943TKbOka0xY3awiNbz-ztaposFcg'
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80'
   },
   {
     id: 't2',
@@ -347,7 +347,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: 'The Travel & Dining Critic',
     text: 'The glass-walled architecture of Grove & Vine is visually breathtaking, but the kitchen steals the show. The scallops on parsnip silk with fermented locust bean foam are unlike anything else in the world.',
     rating: 5,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA98SSLIKc_VHMJrUztnibadAydWBbAPDcR77mIxuEoc326sW7h0Fo0ayckp6lMCTS9XsgQe5LMSm3oVCVk5-p0uQM1uSbPBBUC_aid19OXh06kSrfrvP3HfjY0uurayhBfjnx2NEeWNZJBcN3AOcKy9UdKfOotqOdxogRxxKu5TUnT1KqGwfL1EDJjjwsdnnk2sr3T6MuIu7BQNBKXttCOMDLFrnGkvn9P-_ACxQ56ES5fbfYt7t-xSDJfgY64FYirJ9iv5nexBFE'
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80'
   },
   {
     id: 't3',
@@ -355,7 +355,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: 'Culinary Anthropologist',
     text: 'Elena Vance\'s wine and cocktail pairings are surgical. Every glass of palm-sap inspired gin cocktail elevates the tropical forest experience. True luxury with organic integrity.',
     rating: 5,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAGFnDJf_sPO2PdLFivt0g5dw_Pb3f05RhTjmONmB0R0InZwcU99_1YbCir1_TV2SfuC6cBSbtSekj7AYj0Idi0dTwmwrp_vErUztjZsq5xhjoIOVn8vGhFSIC5XJyoqwqr0a1b-ycAgf0NFd5fXbQYVcvdITwxrZBBms8r_LdliwgyahmMW0DwN-kZYWymbwpnbKAzHAzacRLjY6tSrG6DuYMccBgdPdJPP-7tQXS2nT78q4SzNjFrujJF_fwatUCkQQnB5hvFMSM'
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80'
   }
 ];
 
@@ -366,7 +366,7 @@ export const EVENTS: RestaurantEvent[] = [
     date: 'Saturday, October 17, 2026',
     time: '19:00 - 23:30',
     description: 'A grand multi-sensory evening featuring interactive food theater, live highlife-jazz ensembles, and a continuous flow of our premium botanical open bar. Set beneath a completely transparent glass ceiling.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBlmRmIvdu_5q4j7X4M5bpuCRE2sNLv29qpJGx_octpSHYYpXUqkJlXC9nQ_AZOmh_nGW425t4Br8kAaCtqanEERlZN-usDwHiAE_GIjBZ6vPu7yPvDpiosSzvg5HmUef30Q9rZ4thOSw5gYWheXgblUjiacd2Wni2KCgKZxvU0gHhCeujP2uaz3DzXhPQZjltMnY0cX1EQjp8X_UPAZJ7ZJqFDjxszjF96kmv6MfBrsqdLwmGE8YepZuMYTjSLabsEr5SZUk0hNpE',
+    image: 'https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1000&q=80',
     pricePerGuest: '₵850',
     capacity: '80 guests max'
   },
@@ -376,7 +376,7 @@ export const EVENTS: RestaurantEvent[] = [
     date: 'Thursday, November 12, 2026',
     time: '14:00 - 17:30',
     description: 'Explore the heritage of West African soil and cacao with Pastry Artisan Amara Diop. Mold organic terracotta dishes and learn to prepare chocolate soils, soufflés, and ganaches with 70% dark single-origin Ghanaian beans.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBroeulbTjUI6_5_ngUK45PKjqZWccYLTxOy8HzB0Crd5yBNcRtGODghI5et8yUaJcdN1qgnd3p_eRY2MGbPOqVkMdMXpFafsyqgx90y2PE1-5ykNNsCNefN29Ojdk7lJMLwf6k4cGin_oEa99T-7fmkw90zyCusjaXHkELCKuK739E74YkveiQmV6jbWZRTbUen-0Je63OSxjHZwTyRqWE7TIEJu-AwSBKN2pJVJDpL89SGqEh2fHgsiTQ3ek3PfwpOBkFuEQ6mZI',
+    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1000&q=80',
     pricePerGuest: '₵450',
     capacity: '20 guests max'
   },
@@ -386,7 +386,7 @@ export const EVENTS: RestaurantEvent[] = [
     date: 'Friday, December 11, 2026',
     time: '18:30 - 21:00',
     description: 'An intimate, candles-only exploration of rare and vintage wines, curated by Head Sommelier Elena Vance. Savor exclusive bottles alongside custom-crafted micro-bites reflecting Accra\'s forest-to-table cuisine.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBDVWqcbUBVcGpYKzF8Ewsmy2LiFyMLBXDt96lxhePhNkQZ7JjnJhe9jXyZc2dm2v2nD42SRsI_0AAbDWM9cBhofDr3RO4QILo7zRWELll11LSAdWm-LsDUZua7_avhOWk3Dr9f6Fxp1LmM0FQOa-iaxVgZHPIqUoeQWe3C8r8aNB4mR6BDd5yblqysI-ZV12qnwSIQW-8KY04aYw6DbBcm5rXVFX1XvhJYNrJyEf63rj_7PotLZuvnpyw82NTbkN5F6opk4naTcYU',
+    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1000&q=80',
     pricePerGuest: '₵650',
     capacity: '12 guests max'
   }
@@ -396,19 +396,19 @@ export const CHEFS = [
   {
     name: 'Kojo Mensah',
     role: 'EXECUTIVE CHEF',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDOxgxuLRYgQESJ2Hrn-1uwe3QkUAURn4tQIVSc1e7YsVPt6vKAX0iTghuUG0L1BgTq9H40JcufDqjei90dbnW5yH1Z4Aw9C0f-Zap-y8xnGl4QYuCxVFtjFDDgSZ_W8Z9_hOYrtmHIITx0Ki8fxnquhJ91zfwlgAUCkZm1Yi-vdbiS-pahi76ehzF3jTW5nm_aH7XSuQuDxAVFmfgVZ8cUELz7qM6NkBuyUeOzI5BrFhd8pj943TKbOka0xY3awiNbz-ztaposFcg',
+    image: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=600&q=80',
     bio: 'Kojo brings 15 years of fine dining expertise from Paris and London back to his roots in Accra, infusing modern French technique into local ingredients.'
   },
   {
     name: 'Elena Vance',
     role: 'HEAD SOMMELIER',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA98SSLIKc_VHMJrUztnibadAydWBbAPDcR77mIxuEoc326sW7h0Fo0ayckp6lMCTS9XsgQe5LMSm3oVCVk5-p0uQM1uSbPBBUC_aid19OXh06kSrfrvP3HfjY0uurayhBfjnx2NEeWNZJBcN3AOcKy9UdKfOotqOdxogRxxKu5TUnT1KqGwfL1EDJjjwsdnnk2sr3T6MuIu7BQNBKXttCOMDLFrnGkvn9P-_ACxQ56ES5fbfYt7t-xSDJfgY64FYirJ9iv5nexBFE',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80',
     bio: 'An expert in equatorial terroir, Elena curates a stellar wine list of old-world vintages and small-batch biodynamic producers.'
   },
   {
     name: 'Amara Diop',
     role: 'PASTRY ARTISAN',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAGFnDJf_sPO2PdLFivt0g5dw_Pb3f05RhTjmONmB0R0InZwcU99_1YbCir1_TV2SfuC6cBSbtSekj7AYj0Idi0dTwmwrp_vErUztjZsq5xhjoIOVn8vGhFSIC5XJyoqwqr0a1b-ycAgf0NFd5fXbQYVcvdITwxrZBBms8r_LdliwgyahmMW0DwN-kZYWymbwpnbKAzHAzacRLjY6tSrG6DuYMccBgdPdJPP-7tQXS2nT78q4SzNjFrujJF_fwatUCkQQnB5hvFMSM',
+    image: 'https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80',
     bio: 'Amara deconstructs traditional West African flavors like plantain and mango, blending them with organic dark Ghanaian cacao to create botanical sweet art.'
   }
 ];

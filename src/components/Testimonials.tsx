@@ -66,6 +66,8 @@ export default function Testimonials() {
                   src={current.image}
                   alt={current.name}
                   loading="lazy"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80'; }}
                   className="w-12 h-12 rounded-full object-cover border border-outline-variant/50"
                 />
                 <div className="text-center sm:text-left">

@@ -67,9 +67,11 @@ export default function AboutSection() {
             <div className="grid grid-cols-12 gap-4 items-stretch">
               <div className="col-span-8 overflow-hidden rounded-3xl h-[380px] bg-surface-variant relative group shadow-lg">
                 <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDVWqcbUBVcGpYKzF8Ewsmy2LiFyMLBXDt96lxhePhNkQZ7JjnJhe9jXyZc2dm2v2nD42SRsI_0AAbDWM9cBhofDr3RO4QILo7zRWELll11LSAdWm-LsDUZua7_avhOWk3Dr9f6Fxp1LmM0FQOa-iaxVgZHPIqUoeQWe3C8r8aNB4mR6BDd5yblqysI-ZV12qnwSIQW-8KY04aYw6DbBcm5rXVFX1XvhJYNrJyEf63rj_7PotLZuvnpyw82NTbkN5F6opk4naTcYU" 
+                  src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" 
                   alt="Dine inside glass greenhouse canopy" 
                   loading="lazy"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80'; }}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
@@ -79,17 +81,21 @@ export default function AboutSection() {
               <div className="col-span-4 flex flex-col gap-4">
                 <div className="flex-1 overflow-hidden rounded-2xl bg-surface-variant relative group shadow-md">
                   <img 
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgmSz6VkZCzXwj9tZt1redfRR2TIZn3rWHXuxZTqMJwgcf1sCiO02km92T6LhiUCCsrOeQCOXRQJh8DV0EuVo8efAJ6X44n6posDObbqGcGllLygAtWV0RKo5gHZyEgNkcVYMOJgMKMJSlCZQfDSwcgDzYL7cYA3jv5eH52dwcbL21UGreZ8LC1aNzJk6XlDAU9PL-yFsGL28A0278hdkK00Mg1RJDDnc9fhM0j5tbaLllsy3rG_1XMc_FqDiZE7hT8KUaDO_lh6A" 
+                    src="https://images.unsplash.com/photo-1545232979-fbf596a56767?auto=format&fit=crop&w=600&q=80" 
                     alt="Tropical greenhouse plants" 
                     loading="lazy"
+                    referrerPolicy="no-referrer"
+                    onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80'; }}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
                   />
                 </div>
                 <div className="flex-1 overflow-hidden rounded-2xl bg-surface-variant relative group shadow-md">
                   <img 
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2AdiHKMU-KeJZU3xtaVvt6I_Mxy8MVihqf1k94C362aCBXDlnId3N0d6dY9Viq-epfUBgclTol8LbV4IIIn17Al0EGzgTjgDY6xjanuaC62yHbzRzqFyi-7qfBFoT5EiyqtAMh_gotAw6MblRzyGTpESodQZWfOOIhxr7iHzO2VKwFXjQgUsbYh1FVMYwIuSl-76HSh_vtLF8k4Pahg6OXcYk-qkFS8QiPXM1bLvUNmq50vLlK98gCuqC7mFZ18JkDfd5Iz8zfEw" 
+                    src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=600&q=80" 
                     alt="Table arrangement detail" 
                     loading="lazy"
+                    referrerPolicy="no-referrer"
+                    onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=600&q=80'; }}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
                   />
                 </div>
@@ -159,6 +165,8 @@ export default function AboutSection() {
                     src={chef.image} 
                     alt={chef.name} 
                     loading="lazy"
+                    referrerPolicy="no-referrer"
+                    onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=600&q=80'; }}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-90 group-hover:opacity-75 transition-opacity duration-300" />
