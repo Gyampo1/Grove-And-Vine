@@ -19,7 +19,6 @@ import MapPlaceholder from './components/MapPlaceholder';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import FavoritesList from './components/FavoritesList';
-import TestRunner from './components/TestRunner';
 
 // Lucide icon helper
 import { Search, SlidersHorizontal, Leaf, Flame, Sparkles, AlertCircle, Heart, X } from 'lucide-react';
@@ -543,9 +542,6 @@ export default function App() {
         onToggleFavorite={handleToggleFavorite}
         onPageChange={handlePageChange}
       />
-
-      {/* Real-time automated Unit Test Visualizer terminal floating widget */}
-      <TestRunner />
     </div>
   );
 }
