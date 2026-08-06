@@ -1,0 +1,6 @@
+{
+  "name": "Grove & Vine Restaurant Template",
+  "description": "An exquisite fine-dining restaurant website reflecting arboreal elegance in Cantonments Accra. Features full-progression menus, interactive photo galleries, responsive event managers, multi-step reservation wizards, and fully validated messaging corridors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
