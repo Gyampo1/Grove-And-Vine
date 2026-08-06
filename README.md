@@ -58,8 +58,8 @@ An exquisite, production-ready web application template for modern luxury fine-d
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Gyampo1/grove-and-vine-restaurant-template.git
-   cd grove-and-vine-restaurant-template
+   git clone https://github.com/Gyampo1/Grove-And-Vine.git
+   cd Grove-And-Vine
    ```
 
 2. **Install dependencies**:
